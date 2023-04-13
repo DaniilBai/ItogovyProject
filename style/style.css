@@ -9,15 +9,12 @@ li {
     margin: 0 10px 0 10px;
 }
 .container {
-    position: absolute;
-    width: 1240px;
+    position: relative;
+    max-width: 1140px;
     height: 56px;
     left: 100.19px;
     top: 50px;
-}
-.menu {
-    display: flex;
-    gap: 40px;
+    margin: 0 auto;
 }
 header {
     display: block;
@@ -33,21 +30,8 @@ header {
     display: flex;
     font-size: 18px;
 }
-.search {
-    margin-right: 30px;
-}
-.cart {
-    margin-right: 32px;
-}
-.title__div {
+.menu {
     display: flex;
+    gap: 40px;
 }
-.icon__div {
-    display: flex;
-}
-.header__menu {
-    font-family: 'DM Sans', sans-serif;
-}
-.global_site_text {
-    font-family: 'Rosario', sans-serif;
-}
+
