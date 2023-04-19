@@ -8,14 +8,6 @@ li {
     text-decoration: none;
     margin: 0 10px 0 10px;
 }
-.container {
-    position: relative;
-    max-width: 1140px;
-    height: 56px;
-    left: 100.19px;
-    top: 50px;
-    margin: 0 auto;
-}
 header {
     display: block;
     width: 100%;
@@ -34,4 +26,5 @@ header {
     display: flex;
     gap: 40px;
 }
+
 
